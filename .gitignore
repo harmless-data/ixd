@@ -1,5 +1,6 @@
 # Custom Ignores
 /Data*
+*.csv
 
 # Python .gitignore Template
 # Byte-compiled / optimized / DLL files
