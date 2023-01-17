@@ -10,6 +10,11 @@ def is_ean13(string):
 
     Returns:
         bool: is-ean-13
+    
+    TODO:
+        add None-String Parsing
+        add divergent EAN Matching
+        add differentiating return object
     '''
     return bool(re.match(r"^\d{13}$", string))
 
@@ -21,7 +26,12 @@ def cleanOFFResponse(off_resp):
 
     Returns:
         JSON: Pruned JSON
+
+    TODO:
+        add pruning (function currently serves as pass-through stub)
     '''
+    product_json = filter_json_fields(json_data=off_resp,fields=['product'])
+
     return off_resp
 
 def _baseUrl(api_version):
@@ -32,6 +42,9 @@ def _baseUrl(api_version):
 
     Returns:
         string: full base url for open food facts api
+
+    TODO: 
+        add local hosted option
     '''
     return f'https://world.openfoodfacts.org/api/v{api_version}'
 
@@ -44,6 +57,8 @@ def _getProduct(ean : str,api_version=2):
 
     Returns:
         JSON: OpenFoodFacts response JSON
+    
+    
     '''
     
     url = f'{_baseUrl(api_version)}/product/{ean}.json'
@@ -52,3 +67,37 @@ def _getProduct(ean : str,api_version=2):
     
     return r.json() if r.status_code == 200 else {}
 
+def filter_json_fields(json_data, fields):
+    '''filter_json_fields takes json and returns only the given fields
+
+    Args:
+        json_data (JSON): JSON Object
+        fields ([str]): List of Fields in JSON to keep
+
+    Returns:
+        JSON: Pruned JSON
+    '''
+    filtered_json = {key: json_data[key] for key in fields if key in json_data}
+    return filtered_json
+
+
+def searchForProduct(
+    additives_tags=None,
+    allergens_tags=None,
+    brands_tags=None,
+    categories_tags=None,
+    countries_tags_en=None,
+    emb_codes_tags=None,
+    labels_tags=None,
+    manufacturing_places_tags=None,
+    nutrition_grades_tags=None,
+    origins_tags=None,
+    packaging_tags_de=None,
+    purchase_places_tags=None,
+    states_tags=None,
+    stores_tags=None,
+    traces_tags=None,
+    fields=None,
+    sort_by=None,
+    ):
+    pass
