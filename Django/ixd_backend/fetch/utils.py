@@ -1,4 +1,3 @@
-
 import re
 import requests
 
@@ -57,8 +56,6 @@ def _getProduct(ean : str,api_version=2):
 
     Returns:
         JSON: OpenFoodFacts response JSON
-    
-    
     '''
     
     url = f'{_baseUrl(api_version)}/product/{ean}.json'
@@ -80,24 +77,9 @@ def filter_json_fields(json_data, fields):
     filtered_json = {key: json_data[key] for key in fields if key in json_data}
     return filtered_json
 
-
-def searchForProduct(
-    additives_tags=None,
-    allergens_tags=None,
-    brands_tags=None,
-    categories_tags=None,
-    countries_tags_en=None,
-    emb_codes_tags=None,
-    labels_tags=None,
-    manufacturing_places_tags=None,
-    nutrition_grades_tags=None,
-    origins_tags=None,
-    packaging_tags_de=None,
-    purchase_places_tags=None,
-    states_tags=None,
-    stores_tags=None,
-    traces_tags=None,
-    fields=None,
-    sort_by=None,
-    ):
+def spawn_filter_json(eans):
     pass
+
+def palmOil_FILTER(json):
+    pass
+
