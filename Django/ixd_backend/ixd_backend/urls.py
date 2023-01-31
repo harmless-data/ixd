@@ -19,4 +19,5 @@ from django.urls import path,include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('fetch/', include('fetch.urls')),
+    path('ctrl/', include('ctrl.urls')),
 ]
