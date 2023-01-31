@@ -123,3 +123,4 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 ARDUINO_SERIAL = 'tty.usbserial-14210'
+ARDUINO_BAUD = 9600

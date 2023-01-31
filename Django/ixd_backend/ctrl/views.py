@@ -4,7 +4,7 @@ from django.conf import settings
 import serial
 
 # Create your views here.
-def signalPLC(request):
+def signalPLC(request,ean='no-override'):
     ser = serial.Serial(settings.ARDUINO_SERIAL,settings.ARDUINO_BAUD,timeout=1)
-    ser.write(b'test')
+    ser.write(b'1')
     ser.close()
