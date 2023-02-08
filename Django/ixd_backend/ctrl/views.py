@@ -19,6 +19,7 @@ def signalPLC(request,signal='no-override'):
         return HttpResponseBadRequest('no signal delivered')
 
     ser = serial.Serial(settings.ARDUINO_SERIAL,settings.ARDUINO_BAUD,timeout=1)
-    ser.write(f'{int(signal) % l00}'.encode())
+    _singal = int(signal) % 100
+    ser.write(f'{_singal}'.encode())
     ser.close()
     return HttpResponse('')
