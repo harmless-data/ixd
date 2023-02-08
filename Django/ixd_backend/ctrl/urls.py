@@ -5,5 +5,5 @@ from django.urls import (
 from . import views
 
 urlpatterns = [
-    path('<int:ean>/',view=views.signalPLC,name='ctrl')
+    path('<int:signal>/',view=views.signalPLC,name='ctrl')
 ]
