@@ -51,13 +51,13 @@
 
   <h3>Contributers</h3>
   <br />
-  Jeannine Darakci (Computer Science)
+  * Jeannine Darakci (<em>Computer Science</em>)
   <br />
-  Alice Paupini (Product-Design)
+  * Alice Paupini (<em>Product-Design</em>)
   <br />
-  Carolina-M. Sprick (Product-Design)
+  * Carolina-M. Sprick (<em>Product-Design</em>)
   <br />
-  Jacob Thiessen (Computer Science)
+  * Jacob Thiessen (<em>Computer Science</em>)
   <br />
 
 </div>
