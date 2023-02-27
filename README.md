@@ -49,11 +49,14 @@
 
 <div align="left">
 
-  Contributers
+  <h3>Contributers</h3>
   <br />
   Jeannine Darakci (Computer Science)
+  <br />
   Alice Paupini (Product-Design)
+  <br />
   Carolina-M. Sprick (Product-Design)
+  <br />
   Jacob Thiessen (Computer Science)
   <br />
 
