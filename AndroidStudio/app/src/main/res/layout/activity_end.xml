@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hintergrund_farbe">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.Consumptuition.AppBarOverlay">>
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/Theme.Consumptuition.AppBarOverlay"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:id="@+id/end_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You successfully ended your shopping trip."
+        android:textColor="@color/dunkel_grau"
+        android:gravity="center"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="24sp"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/start_shopping_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start new shopping Trip"
+        android:background="@color/rosa_button"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:padding="10dp"
+        android:layout_below="@id/end_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+</RelativeLayout>
