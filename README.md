@@ -47,20 +47,20 @@
   </p>
 </div>
 
-<div align="left">
+<div align="center">
 
-  <h3>Contributers</h3>
+  <h3>Contributors</h3>
   <br />
-  * Jeannine Darakci (<em>Computer Science</em>)
+  Jeannine Darakci (<em>Computer Science</em>)
   <br />
-  * Alice Paupini (<em>Product-Design</em>)
+  Alice Paupini (<em>Product-Design</em>)
   <br />
-  * Carolina-M. Sprick (<em>Product-Design</em>)
+  Carolina-M. Sprick (<em>Product-Design</em>)
   <br />
-  * Jacob Thiessen (<em>Computer Science</em>)
+  Jacob Thiessen (<em>Computer Science</em>)
   <br />
-
 </div>
+<br />
 
 
 
@@ -82,7 +82,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -90,12 +89,14 @@
   </ol>
 </details>
 
+<br />
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Coding IxD
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+This Project was created as part of the course <a href="https://www.codingixd.org/">**Coding IxD**</a> between Freie Universität Berlin and Weißensee School of Art and Design Berlin
+
 
 <!--
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
@@ -162,20 +163,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -217,9 +204,13 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+Team <em> Consumptuition</em> would like to thank the teaching faculity for their support, feeback and tutorship:
+
+* [Prof. Dr. Claudia Müller-Birn](http://www.mi.fu-berlin.de/en/inf/groups/hcc/members/professor/mueller-birn.html) - [Human-Centered Computing (HCC) Research Group](https://www.mi.fu-berlin.de/en/inf/groups/hcc/)
+* [Prof. Judith Glaser](https://kh-berlin.de/personen/2091) - [Studio NAND](https://nand.io/) & [Kunst Hochschule Weißensee](https://kh-berlin.de/)
+* [Peter Sörries](http://www.mi.fu-berlin.de/en/inf/groups/hcc/members/researchers/soerries.html) - [Human-Centered Computing (HCC) Research Group](https://www.mi.fu-berlin.de/en/inf/groups/hcc/)
+
+aswell as the rest of the Coding IxD teaching staff. It was a pleasure.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
