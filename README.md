@@ -214,10 +214,10 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- Shields -->
 [Django-shield]:https://img.shields.io/badge/django-092e20?style=for-the-badge&logo=django
-[Android-Studio-shield]:https://img.shields.io/badge/Android%20Studio-ffffff?style=for-the-badge&logo=androidstudio
-[Arduino-shield]:https://img.shields.io/badge/Arduino-ffffff?style=for-the-badge&logo=arduino
+[Arduino-shield]:https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=ffffff
+[Android-Studio-shield]:https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=ffffff
 [Open-Food-Facts-shield]:https://img.shields.io/badge/%F0%9F%8D%94Open%20Food%20Facts-f79d0c?style=for-the-badge
-[Python-shield]:https://img.shields.io/badge/Python-ffffff?style=for-the-badge&logo=python
+[Python-shield]:https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=ffffff
 
 <!-- Urls -->
 [Django-url]: https://www.djangoproject.com/
