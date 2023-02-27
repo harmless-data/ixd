@@ -12,6 +12,7 @@ import json
 
 from . import utils    
 from . import filters
+from .models import StaticData
 
 # Create your views here.
 def fetchEAN(request, ean='no_override'):
@@ -35,12 +36,19 @@ def fetchEAN(request, ean='no_override'):
 
     if ean == 'no_overide':
         return HttpResponseBadRequest("None EAN passed")
-    
-    # fetch openfoodfacts response
-    off_resp = off.products.get_product(str(ean))
 
-    # clean openfoodfacts response data
-    resp = utils.cleanOFFResponse(off_resp)
+    if StaticData.objects.filter(ean=str(ean)).exists():
+        # fetch object from db
+        obj = StaticData.objects.get(ean=ean)
+
+        # parse json from db object
+        resp = obj.json
+    else:
+        # fetch openfoodfacts response
+        off_resp = off.products.get_product(str(ean))
+
+        # clean openfoodfacts response data
+        resp = utils.cleanOFFResponse(off_resp)
 
     # return json response obj
     return JsonResponse(resp)
@@ -74,3 +82,14 @@ def fetchList(request):
 
 def fetchIndex(request):
     return HttpResponse('Index')
+
+def addToStatic(request,ean='no-override'):
+    # fetch from OFF
+    # save object ean refernce
+    if ean == 'no-override':
+        return HttpResponseBadRequest()
+
+    _json = utils.cleanOFFResponse(off.products.get_product(str(ean)))
+    new = StaticData(ean=ean,json=_json)
+    new.save()
+    return JsonResponse(_json)
