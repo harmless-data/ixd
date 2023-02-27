@@ -36,7 +36,7 @@
 <h3 align="center">Consumptuition</h3>
 
   <p align="center">
-    project_description
+    Consumptuition is a Project Prototype for an intuitive visual feeback System for Food Item Consumption
     <br />
     <a href="https://github.com/harmless-data/ixd/"><strong>Explore the docs »</strong></a>
     <br />
@@ -46,6 +46,21 @@
     <a href="https://github.com/harmless-data/ixd/issues">Request Feature</a>
   </p>
 </div>
+
+<div align="center">
+
+  <h3>Contributors</h3>
+  <br />
+  Jeannine Darakci (<em>Computer Science</em>)
+  <br />
+  Alice Paupini (<em>Product-Design</em>)
+  <br />
+  Carolina-M. Sprick (<em>Product-Design</em>)
+  <br />
+  Jacob Thiessen (<em>Computer Science</em>)
+  <br />
+</div>
+<br />
 
 
 
@@ -67,7 +82,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -75,12 +89,14 @@
   </ol>
 </details>
 
+<br />
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Coding IxD
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+This Project was created as part of the course <a href="https://www.codingixd.org/">**Coding IxD**</a> between Freie Universität Berlin and Weißensee School of Art and Design Berlin
+
 
 <!--
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
@@ -96,6 +112,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 * [![Open Food Facts][Open-Food-Facts-shield]][Open-Food-Facts-url]
 * [![Arduino][Arduino-shield]][Arduino-url]
 * [![Python][Python-shield]][Python-url]
+* [![RaspberryPi][RaspberryPi-shield]][RaspberryPi-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,20 +163,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -201,9 +204,13 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+Team <em> Consumptuition</em> would like to thank the teaching faculity for their support, feeback and tutorship:
+
+* [Prof. Dr. Claudia Müller-Birn](http://www.mi.fu-berlin.de/en/inf/groups/hcc/members/professor/mueller-birn.html) - [Human-Centered Computing (HCC) Research Group](https://www.mi.fu-berlin.de/en/inf/groups/hcc/)
+* [Prof. Judith Glaser](https://kh-berlin.de/personen/2091) - [Studio NAND](https://nand.io/) & [Kunst Hochschule Weißensee](https://kh-berlin.de/)
+* [Peter Sörries](http://www.mi.fu-berlin.de/en/inf/groups/hcc/members/researchers/soerries.html) - [Human-Centered Computing (HCC) Research Group](https://www.mi.fu-berlin.de/en/inf/groups/hcc/)
+
+aswell as the rest of the Coding IxD teaching staff. It was a pleasure.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -214,10 +221,11 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- Shields -->
 [Django-shield]:https://img.shields.io/badge/django-092e20?style=for-the-badge&logo=django
-[Android-Studio-shield]:https://img.shields.io/badge/Android%20Studio-ffffff?style=for-the-badge&logo=androidstudio
-[Arduino-shield]:https://img.shields.io/badge/Arduino-ffffff?style=for-the-badge&logo=arduino
+[Arduino-shield]:https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=ffffff
+[Android-Studio-shield]:https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=ffffff
 [Open-Food-Facts-shield]:https://img.shields.io/badge/%F0%9F%8D%94Open%20Food%20Facts-f79d0c?style=for-the-badge
-[Python-shield]:https://img.shields.io/badge/Python-ffffff?style=for-the-badge&logo=python
+[Python-shield]:https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=ffffff
+[RaspberryPi-shield]:https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=ffffff
 
 <!-- Urls -->
 [Django-url]: https://www.djangoproject.com/
@@ -225,6 +233,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [Arduino-url]:https://www.arduino.cc/
 [Open-Food-Facts-url]:https://world.openfoodfacts.org/
 [Python-url]:https://www.python.org/
+[RaspberryPi-url]:https://www.raspberrypi.org/
 
 
 [contributors-shield]: https://img.shields.io/github/contributors/harmless-data/ixd.svg?style=for-the-badge
@@ -236,6 +245,6 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [issues-shield]: https://img.shields.io/github/issues/harmless-data/ixd.svg?style=for-the-badge
 [issues-url]: https://github.com/harmless-data/ixd/issues
 [license-shield]: https://img.shields.io/github/license/harmless-data/ixd.svg?style=for-the-badge
-[license-url]: https://github.com/harmless-data/ixd/blob/master/LICENSE.txt
+[license-url]: https://github.com/harmless-data/ixd/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [product-screenshot]: images/screenshot.png
