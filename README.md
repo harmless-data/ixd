@@ -96,6 +96,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 * [![Open Food Facts][Open-Food-Facts-shield]][Open-Food-Facts-url]
 * [![Arduino][Arduino-shield]][Arduino-url]
 * [![Python][Python-shield]][Python-url]
+* [![RaspberryPi][RaspberryPi-shield]][RaspberryPi-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -218,6 +219,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [Android-Studio-shield]:https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=ffffff
 [Open-Food-Facts-shield]:https://img.shields.io/badge/%F0%9F%8D%94Open%20Food%20Facts-f79d0c?style=for-the-badge
 [Python-shield]:https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=ffffff
+[RaspberryPi-shield]:https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=ffffff
 
 <!-- Urls -->
 [Django-url]: https://www.djangoproject.com/
@@ -225,6 +227,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [Arduino-url]:https://www.arduino.cc/
 [Open-Food-Facts-url]:https://world.openfoodfacts.org/
 [Python-url]:https://www.python.org/
+[RaspberryPi-url]:https://www.raspberrypi.org/
 
 
 [contributors-shield]: https://img.shields.io/github/contributors/harmless-data/ixd.svg?style=for-the-badge
