@@ -36,7 +36,7 @@
 <h3 align="center">Consumptuition</h3>
 
   <p align="center">
-    project_description
+    Consumptuition is a Project Prototype for an intuitive visual feeback System for Food Item Consumption
     <br />
     <a href="https://github.com/harmless-data/ixd/"><strong>Explore the docs »</strong></a>
     <br />
@@ -45,6 +45,18 @@
     ·
     <a href="https://github.com/harmless-data/ixd/issues">Request Feature</a>
   </p>
+</div>
+
+<div align="left">
+
+  Contributers
+  <br />
+  Jeannine Darakci (Computer Science)
+  Alice Paupini (Product-Design)
+  Carolina-M. Sprick (Product-Design)
+  Jacob Thiessen (Computer Science)
+  <br />
+
 </div>
 
 
